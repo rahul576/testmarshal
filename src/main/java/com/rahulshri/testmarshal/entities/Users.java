@@ -25,10 +25,8 @@ public class Users {
             strategy = GenerationType.SEQUENCE,generator = "user_seq"
     )
     private Long id;
-
     @Column(name="name")
     private String name;
-
     @Column(name = "email", nullable = false)
     private String email;
 

@@ -10,6 +10,7 @@ import org.springframework.stereotype.Controller;
 @Data
 @AllArgsConstructor
 public class UserDetail {
+    private Long id;
     private String name;
     private String email;
 }
